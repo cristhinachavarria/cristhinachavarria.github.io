@@ -13,5 +13,5 @@ export default defineConfig({
     },
 
     site: "https://cristhinachavarria.github.io/",
-    base: "/hi",
+    base: "",
 });
