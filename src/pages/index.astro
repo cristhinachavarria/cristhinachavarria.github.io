@@ -36,9 +36,9 @@ const projects = (await getCollection("work"))
         >
           <div class="roles">
             <Pill
-              ><Icon icon="pencil-line" size="1.33em" /> Assistant and administrative</Pill
-            >
-            <Pill><Icon icon="code" size="1.33em" /> Data Entry</Pill>
+              ><Icon icon="pencil-line" size="1.33em" /> Administrative Assistant
+            </Pill>
+            <Pill><Icon icon="laptop" size="1.33em" /> Data Entry</Pill>
             <Pill><Icon icon="package" size="1.33em" /> Dropshipping</Pill>
           </div>
         </Hero>
@@ -126,7 +126,11 @@ const projects = (await getCollection("work"))
   }
 
   .roles {
-    display: none;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .hero img {
@@ -148,6 +152,7 @@ const projects = (await getCollection("work"))
     .roles {
       margin-top: 0.5rem;
       display: flex;
+      flex-direction: row;
       gap: 0.5rem;
     }
 
