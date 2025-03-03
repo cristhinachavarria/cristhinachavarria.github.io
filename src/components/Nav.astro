@@ -16,15 +16,15 @@ const iconLinks: {
   href: string;
   icon: keyof typeof iconPaths;
 }[] = [
-  { label: "Twitter", href: "https://twitter.com/me", icon: "twitter-logo" },
-  { label: "Twitch", href: "https://twitch.tv/me", icon: "twitch-logo" },
-  { label: "GitHub", href: "https://github.com/me", icon: "github-logo" },
-  { label: "CodePen", href: "https://codepen.io/me", icon: "codepen-logo" },
-  { label: "dribbble", href: "https://dribbble.com/me", icon: "dribbble-logo" },
   {
-    label: "YouTube",
-    href: "https://www.youtube.com/@me/",
-    icon: "youtube-logo",
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/cristhina-chavarria/",
+    icon: "linkedin-logo",
+  },
+  {
+    label: "UpWork",
+    href: "https://www.upwork.com/freelancers/~0180251b54cf2d0f64?mp_source=share",
+    icon: "upwork-logo",
   },
 ];
 
@@ -39,15 +39,7 @@ const isCurrentPage = (href: string) => {
 
 <nav>
   <div class="menu-header">
-    <a href="/" class="site-title">
-      <Icon
-        icon="terminal-window"
-        color="var(--accent-regular)"
-        size="1.6em"
-        gradient
-      />
-      Cristhina Chavarria
-    </a>
+    <a href="/" class="site-title">Cristhina Chavarria</a>
     <menu-button>
       <template>
         <button class="menu-button" aria-expanded="false">
